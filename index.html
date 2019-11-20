@@ -8,13 +8,43 @@
 			h2 {color: green;}
 			h3 {color: blue;}
 			body {background-color: orange}
+			#id {color:purple;}
+			.class {background-color: violet}
+			#Our-First-Paragraph {background-color: gray;}
+			#Our=First-Unordered-List {background-color: silver;}
+			#Our-First-Ordered-List {background-color: gray;}
+			#Our-First-Image {background-color: silver;}
+			#That-Same-Image-Resized {background-color: gray;}
+			#CSS-comes-into-play {background-color: silver;}
+			#Our-First-Attempt-at-CSS{background-color: gray;}
+			#IDs {background-color: silver;}
+			#Classes {background-color: gray;}
+			#Hyperlinks {background-color: silver;}
+			#Internal-Links {background-color: gray;}
+			#test-run-1 {background-color: silver;}
+			
 		</style>
 	</head>
 	<body>
 		<h1><strong>NoNiche's Project Page</strong></h1>
 		<h2><em>for practicing HTML, CSS, & JavaScript (eventually)</em></h2>
 		
-		<h3>Our first Paragraph</h3>
+		<h3>Table of Contents</h3>
+			<ol>
+				<li id="Our-First-Paragraph">Our First Paragraph</li>
+				<li id="Our=First-Unordered-List">Our First Unordered List</li>
+				<li id="Our-First-Ordered-List">Our First Ordered List</li>
+				<li id="Our-First-Image">Our First Image</li>
+				<li id="That-Same-Image-Resized">That Same Image Resized</li>
+				<li id="CSS-comes-into-play">CSS comes into play</li>
+				<li id="Our-First-Attempt-at-CSS">A screenshot of the website after it's first CSS stylization attempt</li>
+				<li id="IDs">IDs</li>
+				<li id="Classes">Classes</li>
+				<li id="Hyperlinks">Hyperlinks</li>
+				<li id="Internal-Links">Internal Links <em>such as this table of contents!<em></li>
+			</ol>
+		
+		<h3 id="Our-First-Paragraph">Our first Paragraph</h3>
 			<p> <strong>This</strong> is <em>our</em> first paragraph. Congratulations!<br>
 			Just for the sake of making this an actual paragraph,<br>
 			allow me to ramble on for a moment about how this is <br>
@@ -23,26 +53,26 @@
 			but I'm learning even if it is at a snails pace! <br>
 			There we have it, our first paragraph.</p>
 		
-		<h3>Our first unordered list (bullet points)</h3>
+		<h3 id="Our=First-Unordered-List">Our first unordered list (bullet points)</h3>
 			<ul>
 				<li>Such as list item one.</li>
 				<li>Item two.</li>
 				<li>And item three!</li>				
 			</ul>
 		
-		<h3>Our first ordered list (numbered)</h3>
+		<h3 id="Our-First-Ordered-List">Our first ordered list (numbered)</h3>
 			<ol>
 				<li>Such as list item one, literally.</li>
 				<li>Item two. </li>
 				<li>And who could forget, item three!</li>
 			</ol>
 		
-		<h3>Our first image!</h3>
+		<h3 id="Our-First-Image">Our first image!</h3>
 		<img src="https://imgur.com/R3i75lx.png" alt="Image of a building in I made in Minecraft. It's a lighthouse built of cyan and endstone with large circular windows and patterns">
-		<h3>That same image, resized!</h3>
+		<h3 id="That-Same-Image-Resized">That same image, resized!</h3>
 		<img src="https://imgur.com/R3i75lx.png" alt="Image of a building in I made in Minecraft. It's a lighthouse built of cyan and endstone with large circular windows and patterns" width="100">
 		
-		<h3>CSS comes into play</h3>
+		<h3 id="CSS-comes-into-play">CSS comes into play</h3>
 		<h4>Before I made this section, the entire page was black and white only with basic text</h4>
 		<p>Firstly, I wanted to change the background color of the page from white to something else.<br>
 		So we did that, as with all other stylization, in the style tag area.<br>
@@ -50,7 +80,7 @@
 		I'm not trying to make this look good. I'm trying to practice coding so in that regard <br>
 		I think it's working out alright.</p>
 		
-		<h3>A screenshot of the website after it's first CSS stylization attempt</h3>
+		<h3 id="Our-First-Attempt-at-CSS">A screenshot of the website after it's first CSS stylization attempt</h3>
 		<img src="https://imgur.com/9CsN5yD.png" alt="a screenshot of my website, now featuring color. The pages background is yellow. The main header is shown in red font. All of the secondary headers are in blue font. Lastly, the third tier headers are all blue. R G B, baby!" width="600">
 		<p> Because this site is just for my eyes only at the moment,<br>
 		but most of my image hosting sites and images are also set to private<br>
@@ -66,6 +96,48 @@
 		on my on website for easy linking and to insure that they don't disappear as they might would<br>
 		if linked to a hosting website that could possibly not exist in the future.<br>
 		As with anything though, make back ups!</p>
+		
+		<h3 id="IDs">ID's</h3>
+		<p id="id">Add an id="blank" to an element, like i've done with this paragraph. Used for unique, specific items we want to be stylized.<br>
+		Copy and paste can be a good way to make sure the id in the element is identical, which it must be<br>
+		as the id within the style section up top... In the style section when setting id's up you must start with<br>
+		a # sign followed by the id. ID's cannot contain spaces so you can use -'s or _'s instead.<br>
+		lastly, id's are typically only used (and it's best practice) on one element. Otherwise<br>
+		the browser may only apply the stylization to one of the elements you used the ID for. <br>
+		If you want to stylize multiple elements that are not all the same type of element/tag<br>
+		then you'll want to use this next tag...Every ID must be unique to a single element in<br>
+		a single instance... <br>
+		</p>
+		
+		<h4>Note: ID's and Classes should be nice and short, but also unique and descriptive.</h4>
+		
+		<h3 id="Classes">classes</h3>
+		<p class="class">Used for stylizing multiple elements, like I've done with this paragraph and my strong tagged word, <strong class="class">word. Unlike ID's classes can be used multiple times throughout the page.<br>
+		instead of a #, classes are identified in the style section using a . (period.). <br>
+		</p>
+		
+		<h3 id="Hyperlinks">hyperlinking</h3>
+		<p>Let's put a few links in here such as this one : <a href="https://www.codecademy.com/articles/glossary-html">HTML glossary</a> <br>
+		~href~ means hyper-reference.<br>
+		to tell a a link to open in the same window use = nothing, I think? <br>
+		to tell a browser to open the link in a new window target="_blank" before your href. <br>
+		in example the same link, but opening in a separate window : <a target="_blank" href="https://www.codecademy.com/articles/glossary-html">HTML glossary</a><br>
+		So, these are all used to link to websites and pages outside of our current page, but<br>
+		how do we link internally, to places on the page we're already on? <br> </p>
+		
+		<h3 id="Internal-Links">Internal Links</h3>
+		<p>For this section we will be creating a table of contents, which you have seen <br>
+		at the top of the page already (provided I did it correctly.) How did we do this?<br>
+		Using ID's!. Create an ID for the section, that is nice and specific/descriptive. <br>
+		Now that the sections have ID's we can link to them in our table of contents! <br>
+		How do we do that? We use &lt<a href="name of the ID"> ! Wait, how did we get <br>
+		HTML to ignore that code? Using "&lt" before the tag!<br>
+		
+		<h3 id="test-run-1">Test run one<h3>
+		<p>I've added a lot of code and content over the past hour or two. Let's load it up and see if it all works!</p>
+		
+		
+		
+		
 	</body>
 </html>
-	 
