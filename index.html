@@ -10,6 +10,19 @@
 			body {background-color: orange}
 			#id {color:purple;}
 			.class {background-color: violet}
+			.Our-First-Paragraph {background-color: gray;}
+			.Our-First-Unordered-List {background-color: silver;}
+			.Our-First-Ordered-List {background-color: gray;}
+			.Our-First-Image {background-color: silver;}
+			.That-Same-Image-Resized {background-color: gray;}
+			.CSS-comes-into-play {background-color: silver;}
+			.Our-First-Attempt-at-CSS{background-color: gray;}
+			.IDs {background-color: silver;}
+			.Classes {background-color: gray;}
+			.Hyperlinks {background-color: silver;}
+			.Internal-Links {background-color: gray;}
+			.test-run-1 {background-color: silver;}
+			#class {background-color: violet}
 			#Our-First-Paragraph {background-color: gray;}
 			#Our-First-Unordered-List {background-color: silver;}
 			#Our-First-Ordered-List {background-color: gray;}
@@ -23,6 +36,7 @@
 			#Internal-Links {background-color: gray;}
 			#test-run-1 {background-color: silver;}
 			
+			
 		</style>
 	</head>
 	<body>
@@ -31,17 +45,17 @@
 		
 		<h3>Table of Contents</h3>
 			<ol>
-				<li id="Our-First-Paragraph">Our First Paragraph</li>
-				<li id="Our=First-Unordered-List">Our First Unordered List</li>
-				<li id="Our-First-Ordered-List">Our First Ordered List</li>
-				<li id="Our-First-Image">Our First Image</li>
-				<li id="That-Same-Image-Resized">That Same Image Resized</li>
-				<li id="CSS-comes-into-play">CSS comes into play</li>
-				<li id="Our-First-Attempt-at-CSS">A screenshot of the website after it's first CSS stylization attempt</li>
-				<li id="IDs">IDs</li>
-				<li id="Classes">Classes</li>
-				<li id="Hyperlinks">Hyperlinks</li>
-				<li id="Internal-Links">Internal Links <em>such as this table of contents!<em></li>
+				<li class="Our-First-Paragraph" ><a href="#Our-First-Paragraph">Our First Paragraph</a></li>
+				<li class="Our-First-Unordered-List">Our First Unordered List</li>
+				<li class="Our-First-Ordered-List">Our First Ordered List</li>
+				<li class="Our-First-Image">Our First Image</li>
+				<li class="That-Same-Image-Resized">That Same Image Resized</li>
+				<li class="CSS-comes-into-play">CSS comes into play</li>
+				<li class="Our-First-Attempt-at-CSS">A screenshot of the website after it's first CSS stylization attempt</li>
+				<li class="IDs">IDs</li>
+				<li class="Classes">Classes</li>
+				<li class="Hyperlinks">Hyperlinks</li>
+				<li class="Internal-Links">Internal Links <em>such as this table of contents!<em></li>
 			</ol>
 		
 		<h3 id="Our-First-Paragraph">Our first Paragraph</h3>
@@ -53,7 +67,7 @@
 			but I'm learning even if it is at a snails pace! <br>
 			There we have it, our first paragraph.</p>
 		
-		<h3 id="Our=First-Unordered-List">Our first unordered list (bullet points)</h3>
+		<h3 id="Our-First-Unordered-List">Our first unordered list (bullet points)</h3>
 			<ul>
 				<li>Such as list item one.</li>
 				<li>Item two.</li>
@@ -133,11 +147,31 @@
 		How do we do that? We use &lt<a href="name of the ID"> ! Wait, how did we get <br>
 		HTML to ignore that code? Using "&lt" before the tag!<br>
 		
-		<h3 id="test-run-1">Test run one<h3>
-		<p>I've added a lot of code and content over the past hour or two. Let's load it up and see if it all works!</p>
+		<h3 id="test-run-1">Test run one</h3>
+		<p>I've added a lot of code and content over the past hour or two. Let's load it up and see if it all works!<br>
+		Alright, so we botched it. Our internal links don't work and we accidently stylized way to much stuff! Now for the fun part...<br>
+		Figuring out how to fix it and make it right! Yippee ( kill me now. )<br>
+		So what did I do wrong? Well firstly, I put the ID's both on the list items in the table of contents,<br>
+		as well as putting them in the headers for those sections. Big no-no!<br>
+		What else did I do wrong? Well, that's mostly it, but what I forgot was to do the actually linking!<br>
+		So how do we fix this? Simple : Stylization remains in the style section, that part is right,<br>
+		except we wanted to do that for our table of contents, which is also where we want our links to be. <br>
+		So we style up top. We inject our hyper-links into the table of contents list items and point them to<br>
+		the headers we want them to link to. Sounds simple enough, let's try it and then give it another test run!<br>
+		Oh, one more thing. Maybe we should change those id's to classes! Okay so I did that and that was a bad idea<br>
+		for several reasons. For one, now our links and the headers they link to share the same class, so if I click the link<br>
+		will it take me to the table of contents or the material? Maybe neither. Either way, it's wrong and needs to be fixed.<br>
+		We'll do that next...<br>
+		</p>
 		
+		<h3 id="test-run-2">Test run two</h3>
+		<p>Alright, so I think I fixed most of my classes and id's and I've <strong>hopefully</strong> fixed the first link in<br>
+		my table of contents. Let's find out with test number two! <br>
+		
+		</p>
 		
 		
 		
 	</body>
 </html>
+	 
